@@ -9,13 +9,3 @@ try {
 } catch (error) {
   console.error(chalk.red.bold('ERROR') + ': Unable to connect to MongoDB');
 }
-
-// const { MongoClient, ServerApiVersion } = require('mongodb');
-// const uri = "mongodb+srv://Run-Onn:Ekma@2003@cluster0.lklsgqb.mongodb.net/?retryWrites=true&w=majority";
-// const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
-// client.connect(err => {
-//   console.log("err");
-//   const collection = client.db("test").collection("devices");
-//   // perform actions on the collection object
-//   client.close();
-// });
